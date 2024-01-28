@@ -1,0 +1,12 @@
+server:
+  port: 8090  #????
+  session-timeout: 30
+  tomcat.max-threads: 0
+  tomcat.uri-encoding: UTF-8
+
+spring:
+  datasource:  #?????
+    url : jdbc:mysql://localhost:3306/wms?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=UTC
+    username : root
+    password : 123456.Com
+    driverClassName : com.mysql.jdbc.Driver
